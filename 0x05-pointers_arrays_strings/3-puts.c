@@ -1,18 +1,20 @@
 #include "main.h"
 
 /**
- * _strlen - return the length of a string
+ * _puts - Write a function that prints a string, followed by a new line, to
+ * stdout.
  *
- * @s: char to check
+ * @str: This is my input string
  *
- * Description: this will return the length of a string
- * Return: 0 is success
  */
-int _strlen(char *s)
-{
-	int a = 0;
 
-	for (; *s++;)
-		a++;
-	return (a);
+void _puts(char *str)
+{
+	int index;
+
+	for (index = 0; str[index] != '\0'; index++)
+	{
+		_putchar(str[index]);
+	}
+	_putchar('\n');
 }
