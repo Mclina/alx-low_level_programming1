@@ -1,6 +1,5 @@
 #include "main.h"
 
-#include "holberton.h"
 /**
  * reverse_array - reverse the content of an array of intergers
  *
